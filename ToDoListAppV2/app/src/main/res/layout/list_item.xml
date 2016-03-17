@@ -1,0 +1,53 @@
+
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:orientation="vertical" >-->
+
+    <!--<TableLayout-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="fill_parent"-->
+        <!--android:layout_weight="1"-->
+        <!--android:stretchColumns="*" >-->
+
+        <!--<TableRow>-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/item"-->
+            <!--android:gravity="center"-->
+            <!--android:layout_margin="8dip"-->
+            <!--android:layout_marginBottom="10dp"-->
+            <!--android:layout_width="250dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:textIsSelectable="false"-->
+            <!--android:longClickable="true"-->
+            <!--android:textSize="24sp" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/date"-->
+            <!--android:layout_margin="8dip"-->
+            <!--android:layout_marginBottom="10dp"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:layout_width="100dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:textIsSelectable="false"-->
+            <!--android:layout_toRightOf="@id/item"-->
+            <!--android:textSize="24sp" />-->
+
+        <!--</TableRow>-->
+    <!--</TableLayout>-->
+
+<!--</RelativeLayout>-->
+
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/item"
+android:gravity="center"
+    android:textColor="#030303"
+android:layout_margin="8dip"
+android:layout_marginBottom="10dp"
+    android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:textIsSelectable="false"
+android:longClickable="true"
+android:textSize="20sp" />
+
